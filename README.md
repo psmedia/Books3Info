@@ -7,11 +7,12 @@ Why such a difference between number of books and number of ISBN-13s?
 - my parsing may have failed to pick them up. I used the following regex to search - '([0-9][0-9-X ]{10,16})' - I am sure this can be improved upon
 - some books may include only ISBN-10s which I did not try to parse
 - some books do not incude ISBNs in the relevant file. Some may be self-published titles that made their way into the Bibliotik torrent. In other cases ISBNs may have been stripped by some other process. By way of example, a few such titles include:
--- C. A. Gray - Intangible.epub, a Smashwords edition (does that mean it is duplicated in the BooksCorpus dataset which is around 11,000 novels from Smashwords?)
--- 5 Minutes to Stress Relief How to Release Fear, Worry, and Doubt Instantly - Lauren Miller.epub, self-published
--- C_Pocket_Reference.epub, a 2009 O'Reilly Media, Inc publication with no ISBN included
--- Cajun Greats_ 175 Delicious Cajun Recipes - Jo Franks.epub - self-published
--- and etc
-Note that even the self-published titles without ISBN usually contain a copyright statement reserving all rights. I did not find any files in the database that were licensed under Creative Commons licenses
+- - C. A. Gray - Intangible.epub, a Smashwords edition (does that mean it is duplicated in the BooksCorpus dataset which is around 11,000 novels from Smashwords?)
+- - 5 Minutes to Stress Relief How to Release Fear, Worry, and Doubt Instantly - Lauren Miller.epub, self-published
+- - C_Pocket_Reference.epub, a 2009 O'Reilly Media, Inc publication with no ISBN included
+- - Cajun Greats_ 175 Delicious Cajun Recipes - Jo Franks.epub - self-published
+- - and etc
 
-If you would like more information on copyright questions around the Large Language Models you are welcome to https://aicopyright.substack.com.
+Note that even the self-published titles without ISBN usually contain a copyright statement reserving all rights. 
+
+If you would like more information on copyright questions around the Large Language Models you are welcome to the compiler's newsletter at https://aicopyright.substack.com.
