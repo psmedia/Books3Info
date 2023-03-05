@@ -1,5 +1,5 @@
 # Books3Info
-Intended for data and information related to the Books3 dataset included as part of The Pile, and used to train Meta's LLaMA among others. Right now there is one file included here: **Books2_ISBNs.txt
+Intended for data and information related to the Books3 dataset included as part of The Pile, and used to train Meta's LLaMA among others. Right now there is one file included here: **Books2_ISBNs.txt**.
 
 This is a list of some 85,600 ISBN-13s extracted from the 197,500 txt files contained in the Books3 dataset, consistingly of (mostly) pirated ebooks. The ISBN list may include both print- and e-book ISBNs of the same title, depending on the policy of publishers of including ISBNs in their ebook files. ISBNs are presented as extracted, and not always in canonical form with hyphens included (in the right places). They are presented exactly as they appeared in the txt files that were part of Books3, with no further processing.
 
