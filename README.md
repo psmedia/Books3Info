@@ -1,6 +1,10 @@
 # Books3Info
-Intended for data and information related to the Books3 dataset included as part of The Pile, and used to train Meta's LLaMA among others. Right now there is one file included here: **Books2_ISBNs.txt**.
+Intended for data and information related to the Books3 dataset included as part of The Pile, and used to train Meta's LLaMA among others. Right now there are two files included here: 
 
+-  **Books2_ISBNs.txt**, and
+-  **filenames.txt**
+
+### Books2_ISBNS
 This is a list of some 125,000 ISBN-13s extracted from the 197,500 txt files contained in the Books3 dataset, consistingly of (mostly) pirated ebooks. The ISBN list may include both print- and e-book ISBNs of the same title, depending on the policy of publishers of including ISBNs in their ebook files. ISBNs are presented as extracted, and not always in canonical form with hyphens included (in the right places). They are presented exactly as they appeared in the txt files that were part of Books3, with no further processing.
 
 Why such a difference between number of books and number of ISBN-13s? 
@@ -14,5 +18,9 @@ Why such a difference between number of books and number of ISBN-13s?
 - - and etc
 
 Note that even the self-published titles without ISBN usually contain a copyright statement reserving all rights. 
+
+### filenames
+
+This is just one big list of the names of the text files that make up the Books3 database, as originally organised in the Books3 dataset. The pirates didn't follow a naming convention, so this is a little chaotic. The most common pattern is "Author Name - Title" but it is far from consistent. Sometimes the file name also includes language and date of publication, even publisher name. Still, this may be helpful.
 
 If you would like more information on copyright questions around the Large Language Models you are welcome to the compiler's newsletter at https://aicopyright.substack.com.
